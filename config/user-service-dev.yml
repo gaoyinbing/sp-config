@@ -5,7 +5,7 @@ sp:
 spring:
   application:
     name: user-service
-  cloud:
+  cloud: #禁止配置中心配置覆盖客户端配置
     config:
       override-none: true
     
